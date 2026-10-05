@@ -1,0 +1,117 @@
+/* Typsnittet Quicksand hämtas från Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+/* Grundstilen för hela sidan */
+body {
+    background-color: #7f0b6a;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    padding: 20px;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+/* Vita rubriker så de syns mot det lila */
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+/* Hjärtan som punkter i listan */
+ul {
+    list-style-type:"♡ ";
+}
+
+/* Korten ligger bredvid varandra och radbryter på små skärmar */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Ett kort: ljusare ruta med rundade hörn */
+.card {
+    flex: 1 1 15rem;
+    background-color: rgba(255, 255, 255, 0.15);
+padding: 1rem;
+border-radius: 1rem;
+}
+
+/* Korten i rutnät, antal kolumner beror på skärmbredden */
+.grid-cards {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Mina knappar: vita och rundade */
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 999px;
+  background-color: white;
+  color: #7f0b6a;
+  cursor: pointer;
+}
+
+/* Knappen blir rosa när musen är över */
+button:hover {
+  background-color: #ffd6f2;
+}
+
+/* Ljust läge, sätts på av knappen */
+body.light {
+  background-color: #fdf2fb;
+  color: #7f0b6a;
+}
+
+/* Korten behöver mörkare bakgrund i ljust läge */
+body.light .card {
+  background-color: rgba(127, 11, 106, 0.1);
+}
+
+/* Rubrikerna blir lila i stället för vita */
+body.light h1,
+body.light h2,
+body.light h3 {
+  color: #7f0b6a;
+}
+
+/* Knapparna byts om: lila med vit text */
+body.light button {
+  background-color: #7f0b6a;
+  color: white;
+}
+
+/* Bilderna anpassar sig efter skärmen */
+img {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
+  transition: max-width 0.3s;
+}
+
+#avan-image.zoomed {
+  max-width: 25rem;
+} 
