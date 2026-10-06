@@ -14,4 +14,4 @@ Detta är min personliga sida som handlar om mig själv. Mitt namn är Avan Kama
 ## Tillgänglighet
 - Alt-text på bilderna: Alla bilder har alt-text som beskriver vad bilderna föreställer. 
 - Knappar går att nå med Tab och använda med Enter: Jag har använt riktiga button-element. Alla knapparna fungerar med tangentbord och mus. Sedan kan man trycka på Enter när knappen är i fokus. 
-- Hög kontrast mellan text och bakgrund: Jag har lagt vit text på lila bakgrund i mörkt läge och lila text på ljusa bakgrunden i ljust läge. På det viset går texten att läsas i båda lägena. 
+- Hög kontrast mellan text och bakgrund: Jag har lagt vit text på mörkbrun bakgrund i mörkt läge och mörkbrun text på ljus bakgrund i ljust läge. På det viset går texten att läsas i båda lägena.
