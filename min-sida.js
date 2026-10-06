@@ -7,7 +7,7 @@ const extraFact = document.querySelector("#extra-fact");
 
 factButton.addEventListener("click", function () {
   if (extraFact.textContent === "") {
-    extraFact.textContent = "I'm really afraid of heights.(˶ᵔ ᵕ ᵔ˶) ";
+    extraFact.textContent = "I'm really afraid of heights.";
     factButton.textContent = "Hide";
   } else {
     extraFact.textContent = "";

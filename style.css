@@ -3,7 +3,7 @@
 
 /* Grundstilen för hela sidan */
 body {
-    background-color: #7f0b6a;
+    background-color: #3a2b26;
     color: white;
     font-family: "Quicksand", sans-serif;
     padding: 20px;
@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 
-/* Vita rubriker så de syns mot det lila */
+/* Vita rubriker så de syns mot det bruna */
 h1 {
     color: white;
 }
@@ -59,7 +59,7 @@ button {
   border: none;
   border-radius: 999px;
   background-color: white;
-  color: #7f0b6a;
+  color: #3a2b26;
   cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ button:hover {
 /* Ljust läge, sätts på av knappen */
 body.light {
   background-color: #fdf2fb;
-  color: #7f0b6a;
+  color: #3a2b26;
 }
 
 /* Korten behöver mörkare bakgrund i ljust läge */
@@ -83,12 +83,12 @@ body.light .card {
 body.light h1,
 body.light h2,
 body.light h3 {
-  color: #7f0b6a;
+  color: #3a2b26;
 }
 
 /* Knapparna byts om: lila med vit text */
 body.light button {
-  background-color: #7f0b6a;
+  background-color: #3a2b26;
   color: white;
 }
 
@@ -108,7 +108,7 @@ img {
   height: auto;
   border-radius: 1rem;
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
   transition: max-width 0.3s;
 }
 
