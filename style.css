@@ -65,18 +65,18 @@ button {
 
 /* Knappen blir rosa när musen är över */
 button:hover {
-  background-color: #ffd6f2;
+  background-color: #ecdcd0;
 }
 
 /* Ljust läge, sätts på av knappen */
 body.light {
-  background-color: #fdf2fb;
+  background-color: #faf3ee;
   color: #3a2b26;
 }
 
 /* Korten behöver mörkare bakgrund i ljust läge */
 body.light .card {
-  background-color: rgba(127, 11, 106, 0.1);
+  background-color: rgba(58, 43, 38, 0.1);
 }
 
 /* Rubrikerna blir lila i stället för vita */
@@ -93,14 +93,6 @@ body.light button {
 }
 
 /* Bilderna anpassar sig efter skärmen */
-img {
-  width: 100%;
-  max-width: 15rem;
-  height: auto;
-  border-radius: 1rem;
-  display: block;
-  margin: 0 auto;
-}
 
 img {
   width: 100%;
@@ -115,3 +107,16 @@ img {
 #avan-image.zoomed {
   max-width: 25rem;
 } 
+
+/* Tydlig fokusram för den som använder tangentbord */
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #ecdcd0;
+  outline-offset: 3px;
+}
+
+/* I ljust läge syns en mörk ram bättre */
+body.light button:focus-visible,
+body.light a:focus-visible {
+  outline-color: #3a2b26;
+}

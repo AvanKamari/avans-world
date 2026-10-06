@@ -38,4 +38,10 @@ const zoomButton = document.querySelector("#zoom-button");
 
 zoomButton.addEventListener("click", function () {
   avanImage.classList.toggle("zoomed");
+
+  if (avanImage.classList.contains("zoomed")) {
+    zoomButton.textContent = "Zoom out";
+  } else {
+    zoomButton.textContent = "Zoom in";
+  }
 });
